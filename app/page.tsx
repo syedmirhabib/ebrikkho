@@ -342,7 +342,7 @@ export default function Home() {
                     <p className="text-sm text-gray-500">{testimonial.role}</p>
                   </div>
                 </div>
-                <p className="text-gray-600 italic">"{testimonial.quote}"</p>
+                <p className="text-gray-600 italic">&ldquo;{testimonial.quote}&rdquo;</p>
                 <div className="mt-4 flex text-yellow-400">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg key={star} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
@@ -364,7 +364,7 @@ export default function Home() {
             <div className="relative z-10 text-center space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-white">Ready to Transform Your Space?</h2>
               <p className="text-green-100 max-w-2xl mx-auto">
-                Let's create something beautiful together. Get in touch for a free consultation.
+                Let&apos;s create something beautiful together. Get in touch for a free consultation.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <button className="bg-white text-green-900 hover:bg-green-50 rounded-full px-8 py-4 shadow-lg shadow-green-900/20">
